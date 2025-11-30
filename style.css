@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.container {
+    width: 360px;
+    margin: 0 auto;
+    background: white;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 70px;
+    margin-top: 10px;
+}
+
+input, button {
+    width: 90%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    background: #ddd;
+}
+
+button {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.pet-card {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.pet-card img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.bottom-menu {
+    position: fixed;
+    bottom: 0;
+    width: 360px;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-menu img {
+    width: 28px;
+}
+
+.chat-box {
+    height: 75%;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.message-input {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 600px;
+}
+
+.message-input input {
+    width: 78%;
+}
+
+.message-input button {
+    width: 18%;
+    background: black;
+    color: white;
+}
+.bottom-menu {
+    position: fixed;        /* Fica preso no rodapé */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 360px;           /* largura do celular simulado */
+    height: 60px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around; /* espalha os ícones */
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
